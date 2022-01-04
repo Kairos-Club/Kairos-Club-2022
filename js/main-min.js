@@ -1,0 +1,1 @@
+window.onload=function(){var n=new Curtains({container:"canvas"});n.onError((function(){document.body.classList.add("no-curtains")}));var e=document.getElementsByClassName("plane")[0],a=n.addPlane(e,{vertexShaderID:"plane-vs",fragmentShaderID:"plane-fs",uniforms:{time:{name:"uTime",type:"1f",value:0}}});a&&a.onRender((function(){a.uniforms.time.value++}))};
