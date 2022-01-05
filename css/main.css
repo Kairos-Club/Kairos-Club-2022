@@ -242,13 +242,13 @@ body {
   height: 120vh;
   transform: translate(-50%, -50%);
   filter: blur(10px);
-  animation: blinkercanvas 5s linear infinite;
+  animation: blinkercanvas 6s linear infinite;
 }
 
 @keyframes blinkercanvas {
   50% {
-    opacity: 0.4;
-    filter: blur(25px);
+    opacity: 0.2;
+    filter: blur(40px);
   }
 }
 .plane {
